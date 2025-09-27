@@ -981,7 +981,7 @@
 		(uuid "26f45ed9-5d65-4934-ba13-b271e034044e")
 	)
 	(hierarchical_label "HC_1"
-		(shape input)
+		(shape output)
 		(at 165.1 53.34 0)
 		(effects
 			(font
@@ -3047,16 +3047,6 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT0" output
-			(at 165.1 113.03 0)
-			(uuid "a931a7a7-ec79-43d9-81a1-718f6fe6e71a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OUTPUT1" output
 			(at 165.1 116.84 0)
 			(uuid "88744c00-91d1-46bb-a3bf-68e53e2e5681")
@@ -3100,6 +3090,16 @@
 		(pin "OUTPUT5" output
 			(at 165.1 132.08 0)
 			(uuid "847aed92-ae19-4732-8089-5a6b21db1b1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT0" output
+			(at 165.1 113.03 0)
+			(uuid "4c49e221-59a4-4887-a7bd-d5b8a6bb178b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3271,7 @@
 		)
 		(pin "OUTPUT0" output
 			(at 165.1 53.34 0)
-			(uuid "99a05291-8267-4193-b43c-2b8ccb36bb50")
+			(uuid "c7c8ed91-7767-4cae-b836-8719a30e9ff8")
 			(effects
 				(font
 					(size 1.27 1.27)
