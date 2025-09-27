@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5a29628d-8d0d-461a-b28d-d29908ff8ed7")
+	(paper "A4")
+	(title_block
+		(title "l8")
+	)
+	(lib_symbols)
+	(text "sys_wakup needs  solution for low poer"
+		(exclude_from_sim no)
+		(at 43.688 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "722689bc-216b-4ec9-97e0-b6d9635678df")
+	)
+)

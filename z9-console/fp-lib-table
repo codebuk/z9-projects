@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rusefi_lib")(type "KiCad")(uri "${KIPRJMOD}/rusefi_lib_external/rusefi_lib.pretty")(options "")(descr "")(disabled))
+  (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr "")(disabled))
+)

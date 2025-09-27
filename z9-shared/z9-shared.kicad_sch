@@ -1,0 +1,138 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09e08bdc-786f-4949-8afc-e02ddbe0502e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 36.83 71.12)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67")
+		(property "Sheetname" "shared_buzzer"
+			(at 36.83 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_buzzer.kicad_sch"
+			(at 36.83 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 36.83 78.74 180)
+			(uuid "dddab2f7-7b24-484e-bbdd-e580c2f062cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 31.75)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f4251eb-3452-4303-bba0-dce7319e59b1")
+		(property "Sheetname" "shared_usbc"
+			(at 36.83 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_usbc.kicad_sch"
+			(at 36.83 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_OTG_FS_DM" bidirectional
+			(at 36.83 38.1 180)
+			(uuid "c3beafdb-0c8e-4ddc-b22d-c97d136ed486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG_FS_DP" bidirectional
+			(at 36.83 40.64 180)
+			(uuid "35b98411-ebdb-47ca-bda7-f56417fa3989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG_FS_VBUS" output
+			(at 36.83 43.18 180)
+			(uuid "00f992b4-1413-4bd5-94f0-0f0233e7928f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

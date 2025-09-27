@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "l8-kicad")(type "KiCad")(uri "${KIPRJMOD}/l8-kicad-rescue.kicad_sym")(options "")(descr ""))
+)
