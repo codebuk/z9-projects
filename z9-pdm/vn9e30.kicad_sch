@@ -555,20 +555,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 25.4 10.16 0)
+			(property "Reference" "U4"
+				(at 27.5433 -40.64 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "VN9E30F"
-				(at 25.4 7.62 0)
+				(at 27.5433 -43.18 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "dnt:QFN6x6_VN9D30_STM-cleanimport"

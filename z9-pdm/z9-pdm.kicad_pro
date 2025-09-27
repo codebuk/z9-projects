@@ -590,7 +590,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 700,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -985,7 +985,7 @@
     ],
     [
       "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364",
-      "usb"
+      "shared_usb"
     ],
     [
       "00000000-0000-0000-0000-00005d0250fb",
@@ -1041,7 +1041,7 @@
     ],
     [
       "c97401c5-7e03-4d93-a14f-f692468677b5",
-      "buzzer"
+      "shared_buzzer"
     ]
   ],
   "text_variables": {}

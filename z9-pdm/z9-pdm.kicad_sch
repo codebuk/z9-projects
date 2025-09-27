@@ -239,6 +239,16 @@
 		)
 		(uuid "009e1caf-0252-4451-a4a4-b9dc114f20d9")
 	)
+	(label "USB_OTG_FS_VBUS"
+		(at 95.25 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "029bc847-a2e0-445d-9cd4-c24c3a1db5b3")
+	)
 	(label "ADC1_IN3"
 		(at 160.02 54.61 180)
 		(effects
@@ -399,16 +409,6 @@
 		)
 		(uuid "392a0c26-07c0-46ef-8edc-62aa1653c967")
 	)
-	(label "USB_OTG_FS_VBUS"
-		(at 96.52 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39508221-fc4f-4214-8dec-13bee55d6238")
-	)
 	(label "VIPOWER_DI1"
 		(at 52.07 69.85 180)
 		(effects
@@ -469,16 +469,6 @@
 		)
 		(uuid "44d3bd81-dbe3-413a-b7e0-45a60eedadd6")
 	)
-	(label "USB_OTG_FS_DP"
-		(at 96.52 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45537665-4b51-4f24-947e-722658d08ab1")
-	)
 	(label "SENSE_7"
 		(at 312.42 80.01 180)
 		(effects
@@ -518,6 +508,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b045271-465c-4aa5-bcd9-99f91266d8b5")
+	)
+	(label "USB_OTG_FS_DP"
+		(at 95.25 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b01069-9540-438c-864d-9894135f498d")
 	)
 	(label "VIPOWER_SDI"
 		(at 52.07 80.01 180)
@@ -568,16 +568,6 @@
 			(justify right bottom)
 		)
 		(uuid "5619d127-6105-4b88-b229-d3fafc72870a")
-	)
-	(label "USB_OTG_FS_DM"
-		(at 96.52 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "571e46e7-69db-40a9-9cf1-adb70181e8a8")
 	)
 	(label "SENSE_2"
 		(at 312.42 149.86 180)
@@ -728,6 +718,16 @@
 			(justify left bottom)
 		)
 		(uuid "755ed1ef-f807-4cfa-909e-fd98224f6a3c")
+	)
+	(label "USB_OTG_FS_DM"
+		(at 95.25 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75f6ec67-337e-4513-ac29-f3661b316fbf")
 	)
 	(label "SENSE_5"
 		(at 312.42 74.93 180)
@@ -1210,7 +1210,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f6681e4-4252-424a-a8f3-96f38e5c3f1a")
 		(property "Reference" "H2"
-			(at 401.32 227.3299 0)
+			(at 401.32 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,6 +1225,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
@@ -1265,7 +1266,7 @@
 	)
 	(symbol
 		(lib_id "dnt_global:MountingHole_-_4MM")
-		(at 389.89 236.22 0)
+		(at 372.11 236.22 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1274,7 +1275,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d5f4b3d-d3eb-4e48-ba16-d6012bf9ad78")
 		(property "Reference" "H6"
-			(at 392.43 234.9499 0)
+			(at 374.65 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,16 +1284,17 @@
 			)
 		)
 		(property "Value" "MountingHole_-_4MM"
-			(at 392.43 237.4899 0)
+			(at 374.65 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
-			(at 389.89 236.22 0)
+			(at 372.11 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 236.22 0)
+			(at 372.11 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1312,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 236.22 0)
+			(at 372.11 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1331,7 @@
 	)
 	(symbol
 		(lib_id "dnt_global:MountingHole_-_4MM")
-		(at 389.89 243.84 0)
+		(at 372.11 243.84 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1338,7 +1340,7 @@
 		(fields_autoplaced yes)
 		(uuid "a490e744-eb65-463d-904f-266078582b60")
 		(property "Reference" "H5"
-			(at 392.43 242.5699 0)
+			(at 374.65 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,16 +1349,17 @@
 			)
 		)
 		(property "Value" "MountingHole_-_4MM"
-			(at 392.43 245.1099 0)
+			(at 374.65 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
-			(at 389.89 243.84 0)
+			(at 372.11 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 243.84 0)
+			(at 372.11 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1377,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 243.84 0)
+			(at 372.11 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1405,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfaf5cbe-039d-4ddb-bc1c-548109137b08")
 		(property "Reference" "H3"
-			(at 401.32 234.9499 0)
+			(at 401.32 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,6 +1420,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
@@ -1482,6 +1486,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
@@ -1531,7 +1536,7 @@
 		(fields_autoplaced yes)
 		(uuid "e684af9b-b4be-453d-bcab-c3a14ddc99dd")
 		(property "Reference" "H4"
-			(at 401.32 242.5699 0)
+			(at 401.32 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,6 +1551,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
@@ -1586,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "dnt_global:MountingHole_-_4MM")
-		(at 389.89 220.98 0)
+		(at 372.11 220.98 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1595,7 +1601,7 @@
 		(fields_autoplaced yes)
 		(uuid "e82a7379-053a-4a18-94a9-4003d2d07e43")
 		(property "Reference" "H8"
-			(at 392.43 219.7099 0)
+			(at 374.65 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,16 +1610,17 @@
 			)
 		)
 		(property "Value" "MountingHole_-_4MM"
-			(at 392.43 222.2499 0)
+			(at 374.65 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
-			(at 389.89 220.98 0)
+			(at 372.11 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 220.98 0)
+			(at 372.11 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 220.98 0)
+			(at 372.11 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1657,7 @@
 	)
 	(symbol
 		(lib_id "dnt_global:MountingHole_-_4MM")
-		(at 389.89 228.6 0)
+		(at 372.11 228.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1659,7 +1666,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9ad72ec-937d-45a7-a1db-8f8c9cdd0f3a")
 		(property "Reference" "H7"
-			(at 392.43 227.3299 0)
+			(at 374.65 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,16 +1675,17 @@
 			)
 		)
 		(property "Value" "MountingHole_-_4MM"
-			(at 392.43 229.8699 0)
+			(at 374.65 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
-			(at 389.89 228.6 0)
+			(at 372.11 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 228.6 0)
+			(at 372.11 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1703,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 228.6 0)
+			(at 372.11 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,8 +2820,8 @@
 		)
 	)
 	(sheet
-		(at 52.07 25.4)
-		(size 44.45 24.13)
+		(at 53.34 241.3)
+		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2827,8 +2835,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364")
-		(property "Sheetname" "usb"
-			(at 52.07 24.6884 0)
+		(property "Sheetname" "shared_usb"
+			(at 53.34 240.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,8 +2844,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 52.07 50.1146 0)
+		(property "Sheetfile" "../z9-shared/shared_usbc.kicad_sch"
+			(at 53.34 266.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2854,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
-			(at 96.52 29.21 0)
+			(at 95.25 245.11 0)
 			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
 			(effects
 				(font
@@ -2856,7 +2864,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
-			(at 96.52 34.29 0)
+			(at 95.25 250.19 0)
 			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
 			(effects
 				(font
@@ -2866,7 +2874,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_VBUS" output
-			(at 96.52 44.45 0)
+			(at 95.25 260.35 0)
 			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
 			(effects
 				(font
@@ -2899,7 +2907,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c97401c5-7e03-4d93-a14f-f692468677b5")
-		(property "Sheetname" "buzzer"
+		(property "Sheetname" "shared_buzzer"
 			(at 53.34 217.7284 0)
 			(effects
 				(font
@@ -2908,7 +2916,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buzzer.kicad_sch"
+		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
 			(at 53.34 230.4546 0)
 			(effects
 				(font

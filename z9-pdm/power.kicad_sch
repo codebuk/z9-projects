@@ -6048,6 +6048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
@@ -6190,6 +6191,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
@@ -6339,7 +6341,7 @@
 			)
 		)
 		(property "Value" "B340"
-			(at 105.41 31.75 0)
+			(at 106.172 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VP"
+		(property "Value" "+3.3V"
 			(at 104.14 132.08 0)
 			(effects
 				(font
