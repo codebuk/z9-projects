@@ -2303,7 +2303,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201")
-		(property "Sheetname" "buzzer"
+		(property "Sheetname" "shared buzzer"
 			(at 299.72 67.8684 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58")
-		(property "Sheetname" "usbc"
+		(property "Sheetname" "shared usbc"
 			(at 299.72 114.8584 0)
 			(effects
 				(font

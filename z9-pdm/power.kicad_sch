@@ -4909,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 34.29) (xy 207.01 34.29)
+			(xy 204.47 34.29) (xy 219.71 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 34.29) (xy 246.38 34.29)
+			(xy 227.33 34.29) (xy 246.38 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5871,8 +5871,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Diode - Schotty V1P6-M3/H 60V 1A"
-			(at 182.626 54.102 90)
+		(property "Value" "Schotty V1P6-M3/H 60V 1A"
+			(at 178.054 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "dnt_global:Fuse_16V_500mA_100A_1A_150mΩ_0805_PTC_Resettable_Fuses_ROHS")
-		(at 210.82 34.29 90)
+		(at 223.52 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7105,7 +7105,7 @@
 		(fields_autoplaced yes)
 		(uuid "559d1e2e-3a42-4aaf-8dc6-e708b382ae56")
 		(property "Reference" "F2"
-			(at 210.82 27.94 90)
+			(at 223.52 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,15 +7113,16 @@
 			)
 		)
 		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_0805_PTC_Resettable_Fuses_ROHS"
-			(at 210.82 30.48 90)
+			(at 223.52 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 210.82 36.068 90)
+			(at 223.52 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 34.29 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7140,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 210.82 34.29 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7149,7 @@
 			)
 		)
 		(property "LCSC" "C2833485"
-			(at 210.82 34.29 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7158,7 @@
 			)
 		)
 		(property "Order" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7167,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7176,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7185,7 @@
 			)
 		)
 		(property "Part#" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7194,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7203,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 210.82 34.29 90)
+			(at 223.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)

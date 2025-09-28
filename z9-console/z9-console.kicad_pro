@@ -993,11 +993,11 @@
     ],
     [
       "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201",
-      "buzzer"
+      "shared buzzer"
     ],
     [
       "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58",
-      "usbc"
+      "shared usbc"
     ]
   ],
   "text_variables": {}

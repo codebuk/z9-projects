@@ -1,0 +1,82 @@
+** Drc report for z9-pdm.kicad_pcb **
+** Created on 2025-09-28T12:35:32+1000 **
+
+** Found 20 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(291.6600 mm, 104.4400 mm): Reference field of U951
+    @(286.2700 mm, 104.0350 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(241.0130 mm, 181.9295 mm): Reference field of J13
+    @(208.9700 mm, 181.5600 mm): Segment of J12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(295.5100 mm, 47.3000 mm): Segment of D18 on F.Silkscreen
+    @(295.8950 mm, 45.6550 mm): Reference field of F4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(295.8950 mm, 60.1850 mm): Reference field of F5
+    @(295.5100 mm, 61.8300 mm): Segment of D26 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(307.5500 mm, 32.7700 mm): Segment of D24 on F.Silkscreen
+    @(307.9350 mm, 31.1250 mm): Reference field of F10
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(319.5900 mm, 32.7700 mm): Segment of D19 on F.Silkscreen
+    @(319.9750 mm, 31.1250 mm): Reference field of F12
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(295.5100 mm, 32.7700 mm): Segment of D20 on F.Silkscreen
+    @(295.8950 mm, 31.1250 mm): Reference field of F6
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(319.5900 mm, 47.3000 mm): Segment of D22 on F.Silkscreen
+    @(319.9750 mm, 45.6550 mm): Reference field of F8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(319.9750 mm, 60.1850 mm): Reference field of F7
+    @(319.5900 mm, 61.8300 mm): Segment of D21 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(307.9350 mm, 45.6550 mm): Reference field of F11
+    @(307.5500 mm, 47.3000 mm): Segment of D25 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(307.5500 mm, 61.8300 mm): Segment of D23 on F.Silkscreen
+    @(307.9350 mm, 60.1850 mm): Reference field of F9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(287.9154 mm, 183.4969 mm): Reference field of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.8475 mm, 139.9783 mm): Reference field of D1
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; warning
+    @(161.1100 mm, 170.3100 mm): Footprint U4
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; warning
+    @(207.4799 mm, 170.1640 mm): Footprint U5
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(222.5000 mm, 87.3960 mm): Track [/MCU/SYS_JTMS-SWDIO] on F.Cu, length 1.9502 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(209.4970 mm, 90.9176 mm): Track [/MCU/SYS_JTCK-SWCLK] on F.Cu, length 1.6396 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(213.0387 mm, 84.2363 mm): Track [/MCU/SYS_JTCK-SWCLK] on B.Cu, length 7.5500 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(214.3909 mm, 84.2841 mm): Track [/MCU/USART1_RX] on B.Cu, length 1.1185 mm
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(220.3800 mm, 81.2910 mm): Footprint J7
+    @(211.5320 mm, 89.6476 mm): Footprint J4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
