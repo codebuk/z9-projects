@@ -3935,7 +3935,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VP"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -3948,7 +3948,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 3.81 -1.27 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3956,7 +3956,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VP"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -3982,7 +3982,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4000,27 +4000,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VP_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+3.3VP_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4055,6 +4035,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -10712,7 +10712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 104.14 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10721,8 +10721,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5be1b53-ddb6-4a21-af9f-b9c35a2abfd0")
-		(property "Reference" "#PWR025"
-			(at 107.95 138.43 0)
+		(property "Reference" "#PWR25"
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 		(instances
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
