@@ -1155,78 +1155,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 50.8 -2.54 180)
-					(length 7.62)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 50.8 -5.08 180)
-					(length 7.62)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 50.8 -7.62 180)
-					(length 7.62)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 50.8 -10.16 180)
 					(length 7.62)
@@ -3051,9 +2979,6 @@
 		(pin "8"
 			(uuid "37082f3c-3ebe-4193-8c5a-45cb974ae492")
 		)
-		(pin "35"
-			(uuid "33edf5ca-3368-49f9-ae49-a24e82023e8c")
-		)
 		(pin "2"
 			(uuid "c51569b4-6fa8-4b7c-901e-053a7125dc29")
 		)
@@ -3069,20 +2994,11 @@
 		(pin "7"
 			(uuid "bae6c278-f345-41fc-8384-158f566fab2f")
 		)
-		(pin "37"
-			(uuid "c1c942a6-f6a3-4c93-ba30-8be943298763")
-		)
-		(pin "34"
-			(uuid "7c4562a6-1e22-43d2-8065-514541ceb63e")
-		)
 		(pin "21"
 			(uuid "65d2c728-645a-4586-ae3f-89bda218a8a2")
 		)
 		(pin "23"
 			(uuid "d75e81ef-e072-4df4-8f9a-267548847246")
-		)
-		(pin "36"
-			(uuid "314d072c-b039-4bc8-a628-e12b58618256")
 		)
 		(pin "27"
 			(uuid "0af4a9bf-c31b-4948-a8bc-1d9b7a8aeaa4")
