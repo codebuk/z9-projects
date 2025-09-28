@@ -5,6 +5,46 @@
 	(uuid "09e08bdc-786f-4949-8afc-e02ddbe0502e")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 83.82 114.3)
+		(uuid "28876fa2-bb2a-4871-80b3-37795c193dbf")
+	)
+	(no_connect
+		(at 36.83 78.74)
+		(uuid "327c44cd-7426-47f5-8339-b64a7bb87698")
+	)
+	(no_connect
+		(at 36.83 111.76)
+		(uuid "43492688-478e-492f-b770-f5912777a19a")
+	)
+	(no_connect
+		(at 36.83 40.64)
+		(uuid "654ba70a-08cb-4d31-9808-1f9b2d5fb4b4")
+	)
+	(no_connect
+		(at 36.83 43.18)
+		(uuid "6d81dce9-0318-41f8-b5bd-22b243436331")
+	)
+	(no_connect
+		(at 83.82 116.84)
+		(uuid "acca2ea4-7ca2-4f3f-bce4-2192f6e04f19")
+	)
+	(no_connect
+		(at 36.83 114.3)
+		(uuid "b75fdada-aca4-41fd-b4fb-500dcf8c3722")
+	)
+	(no_connect
+		(at 36.83 116.84)
+		(uuid "b9ad3a7f-0673-4ecf-a8d8-74eaad8067da")
+	)
+	(no_connect
+		(at 36.83 109.22)
+		(uuid "c2664516-2014-482a-8898-d23879e374e6")
+	)
+	(no_connect
+		(at 36.83 38.1)
+		(uuid "d69e3274-1f68-4782-90ee-a0126324bddc")
+	)
 	(sheet
 		(at 36.83 71.12)
 		(size 46.99 26.67)
@@ -125,6 +165,110 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 106.68)
+		(size 46.99 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a613cbdc-c893-46e2-859f-3c7622690192")
+		(property "Sheetname" "shared_isolated_can"
+			(at 36.83 105.9684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_isolated_can.kicad_sch"
+			(at 36.83 131.3946 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_ISO" input
+			(at 36.83 111.76 180)
+			(uuid "50c5ba36-1456-407e-a582-b0a22c57bbf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 36.83 114.3 180)
+			(uuid "950faf36-27a1-484b-b41e-67d5ca93164a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 36.83 116.84 180)
+			(uuid "4499bfa7-34b0-437a-a922-c688aac528b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 83.82 114.3 0)
+			(uuid "039f417c-dd8d-4935-806e-d169700f1fc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 83.82 116.84 0)
+			(uuid "c1577b9a-b5a2-442c-9348-a49d7ed3dc69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_ISO" input
+			(at 36.83 109.22 180)
+			(uuid "d5aad261-84f1-4993-b49f-5979aff21fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "4")
 				)
 			)
 		)

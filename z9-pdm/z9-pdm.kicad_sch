@@ -104,17 +104,6 @@
 		)
 		(uuid "06aae83d-50f6-4362-913e-365cf537f3a8")
 	)
-	(text "git commands\n\ngit add --all\ngit commit -m \"blah\"\ngit push "
-		(exclude_from_sim no)
-		(at 246.126 275.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "395b619e-ade3-434f-9d38-ab17b0c15411")
-	)
 	(text "IIS3DHHCTR"
 		(exclude_from_sim no)
 		(at 219.71 88.9 0)
@@ -124,16 +113,6 @@
 			)
 		)
 		(uuid "5e8a8606-9fb8-4d8c-b58e-c4ce40980460")
-	)
-	(text "Anode (positive side) and a cathode (negative side) "
-		(exclude_from_sim no)
-		(at 271.526 267.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96862397-5ff5-4433-95c3-082fb35e422b")
 	)
 	(no_connect
 		(at 312.42 83.82)
@@ -370,7 +349,7 @@
 		(uuid "009e1caf-0252-4451-a4a4-b9dc114f20d9")
 	)
 	(label "USB_OTG_FS_VBUS"
-		(at 95.25 260.35 0)
+		(at 93.98 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -420,7 +399,7 @@
 		(uuid "0a3d8007-65fe-484e-8745-fb783798e1d8")
 	)
 	(label "+5V_ISO"
-		(at 93.98 187.96 0)
+		(at 92.71 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -599,6 +578,16 @@
 		)
 		(uuid "4789c1e0-b921-411f-8c27-7172529a9a85")
 	)
+	(label "CAN_H"
+		(at 95.25 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5a15a8-1b6b-431a-b0be-fb809256284a")
+	)
 	(label "HC_3"
 		(at 304.8 43.18 180)
 		(effects
@@ -610,7 +599,7 @@
 		(uuid "4f56142d-39f6-4cc0-b1d8-453b98e616a9")
 	)
 	(label "USB_OTG_FS_DP"
-		(at 95.25 245.11 0)
+		(at 93.98 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -630,7 +619,7 @@
 		(uuid "50bde2c3-e9e0-433b-973b-efa6ab9125c1")
 	)
 	(label "GND_ISO"
-		(at 93.98 194.31 0)
+		(at 92.71 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -739,16 +728,6 @@
 		)
 		(uuid "5e0cc560-83fd-4799-9d9a-305ae2c6e3ec")
 	)
-	(label "CAN_H"
-		(at 95.25 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fb2f1ac-86c3-44e5-803f-c3a04a30f2dd")
-	)
 	(label "ADC1_IN1"
 		(at 363.22 148.59 0)
 		(effects
@@ -758,6 +737,16 @@
 			(justify left bottom)
 		)
 		(uuid "623cf616-8931-473c-a75b-b17be6752380")
+	)
+	(label "CAN1_TX"
+		(at 52.07 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6679a2a3-56e3-472e-ae0b-d2d0e2488a54")
 	)
 	(label "HC_7"
 		(at 304.8 58.42 180)
@@ -820,7 +809,7 @@
 		(uuid "755ed1ef-f807-4cfa-909e-fd98224f6a3c")
 	)
 	(label "USB_OTG_FS_DM"
-		(at 95.25 250.19 0)
+		(at 93.98 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -859,16 +848,6 @@
 		)
 		(uuid "8032edc2-880f-4ba1-bc0d-943f7cf92d0a")
 	)
-	(label "CAN1_RX"
-		(at 53.34 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "810ae260-0621-4ccd-868f-a7492498c8e5")
-	)
 	(label "HC_4"
 		(at 95.25 71.12 0)
 		(effects
@@ -878,16 +857,6 @@
 			(justify left bottom)
 		)
 		(uuid "859bd73a-1183-425f-ba06-b86da23aa29b")
-	)
-	(label "CAN1_TX"
-		(at 53.34 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86ae8234-2187-413b-b370-df42032376bf")
 	)
 	(label "SENSE_9"
 		(at 363.22 55.88 0)
@@ -918,16 +887,6 @@
 			(justify left bottom)
 		)
 		(uuid "8bd1aa69-f557-40dd-98a9-d8ed1bdad2eb")
-	)
-	(label "CAN_L"
-		(at 95.25 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d1f62c3-cc92-46ec-b564-f208b07e4f43")
 	)
 	(label "SENSE_6"
 		(at 312.42 160.02 180)
@@ -979,6 +938,16 @@
 		)
 		(uuid "98af0e53-e8bf-4208-8452-1a67581ed66c")
 	)
+	(label "+5V_ISO"
+		(at 52.07 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a03dddc-65be-4fc1-a559-bffb1adf1726")
+	)
 	(label "VIPOWER_SCK"
 		(at 191.77 127 0)
 		(effects
@@ -1008,6 +977,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c9979b1-54f7-4135-a45e-0bd8ec60d39f")
+	)
+	(label "CAN1_RX"
+		(at 52.07 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d508da9-956e-4551-b5a0-bd1926a234eb")
 	)
 	(label "ADC1_IN6"
 		(at 363.22 158.75 0)
@@ -1109,6 +1088,16 @@
 		)
 		(uuid "d142719c-1a85-437a-959b-b734fbeda427")
 	)
+	(label "GND_ISO"
+		(at 52.07 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d351d660-eae6-4569-b97b-d6e7903da100")
+	)
 	(label "HC_10"
 		(at 304.8 69.85 180)
 		(effects
@@ -1118,16 +1107,6 @@
 			(justify right bottom)
 		)
 		(uuid "d53e3c43-fd9b-4e87-bb2b-a56262d980b1")
-	)
-	(label "+5V_ISO"
-		(at 53.34 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d59dc7c5-2566-49b1-9389-52c597b8fb19")
 	)
 	(label "ADC1_IN8"
 		(at 160.02 64.77 180)
@@ -1229,8 +1208,18 @@
 		)
 		(uuid "e30d2bc1-cde9-4f5d-bb94-9e0c20bb002a")
 	)
+	(label "CAN_L"
+		(at 95.25 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e37b5d82-c46f-46a4-8202-c39dc1fe5331")
+	)
 	(label "TIM1_CH3"
-		(at 53.34 223.52 180)
+		(at 52.07 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,16 +1227,6 @@
 			(justify right bottom)
 		)
 		(uuid "e4b65cf1-36cd-4fb7-9db7-c135ef31803e")
-	)
-	(label "GND_ISO"
-		(at 53.34 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb7ca54e-3d98-47c0-86f7-7f9ca04fe25f")
 	)
 	(label "ADC1_IN3"
 		(at 363.22 153.67 0)
@@ -1385,6 +1364,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 398.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1442,6 +1475,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 372.11 236.22 0)
 			(effects
 				(font
@@ -1515,6 +1602,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1572,6 +1713,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 398.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 398.78 236.22 0)
 			(effects
 				(font
@@ -1646,6 +1841,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1703,6 +1952,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 398.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 398.78 243.84 0)
 			(effects
 				(font
@@ -1776,6 +2079,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
@@ -1833,6 +2190,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 372.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 372.11 228.6 0)
 			(effects
 				(font
@@ -2299,6 +2710,108 @@
 			(project "z9-pdm"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 16.51)
+		(size 43.18 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2345b862-d871-4771-9bee-01079d71c128")
+		(property "Sheetname" "shared_can_isolated"
+			(at 52.07 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../z9-shared/shared_isolated_can.kicad_sch"
+			(at 52.07 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_ISO" input
+			(at 52.07 38.1 180)
+			(uuid "626f5f5c-de06-41d1-8db6-f12bb91ed85c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 95.25 26.67 0)
+			(uuid "b72a30a9-b931-4875-8018-4744753bd999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 95.25 30.48 0)
+			(uuid "42456254-2173-4fe5-a86c-d084ed00ca9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 52.07 21.59 180)
+			(uuid "0706f64f-fa0d-4141-9467-6e6ad87d7d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 52.07 29.21 180)
+			(uuid "df4f6380-8054-4049-b76b-24c3ee26d628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_ISO" input
+			(at 52.07 41.91 180)
+			(uuid "a4c1cd81-601b-4c81-8411-5b6ff01907ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(page "21")
 				)
 			)
 		)
@@ -2838,109 +3351,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 120.65)
-		(size 41.91 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "73909d3a-f2e9-43a1-adfe-e0aaff309cf7")
-		(property "Sheetname" "can"
-			(at 53.34 119.9384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "can.kicad_sch"
-			(at 53.34 147.9046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND_ISO" input
-			(at 53.34 143.51 180)
-			(uuid "474f1754-2743-4fa9-9622-a909d1cc225f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V_ISO" input
-			(at 53.34 139.7 180)
-			(uuid "cb841d38-3349-40f0-8e26-12f4e4ba75cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_TX" input
-			(at 53.34 123.19 180)
-			(uuid "2b0713f0-950c-4e9e-ac7d-4e0d8e1bac67")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_RX" input
-			(at 53.34 125.73 180)
-			(uuid "6bf7a723-7be0-4824-957c-6b91b7bf893b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_H" bidirectional
-			(at 95.25 129.54 0)
-			(uuid "fdaa46b4-1d12-46de-91b6-f5f0e06555f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_L" bidirectional
-			(at 95.25 133.35 0)
-			(uuid "826d843a-feec-4977-b2ba-be0e8bf27528")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "z9-pdm"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 241.3)
+		(at 52.07 196.85)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2956,7 +3367,7 @@
 		)
 		(uuid "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364")
 		(property "Sheetname" "shared_usb"
-			(at 53.34 240.5884 0)
+			(at 52.07 196.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3376,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_usbc.kicad_sch"
-			(at 53.34 266.0146 0)
+			(at 52.07 221.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3385,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
-			(at 95.25 245.11 0)
+			(at 93.98 200.66 0)
 			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
 			(effects
 				(font
@@ -2984,7 +3395,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
-			(at 95.25 250.19 0)
+			(at 93.98 205.74 0)
 			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
 			(effects
 				(font
@@ -2994,7 +3405,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_VBUS" output
-			(at 95.25 260.35 0)
+			(at 93.98 215.9 0)
 			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
 			(effects
 				(font
@@ -3012,7 +3423,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 218.44)
+		(at 52.07 173.99)
 		(size 41.91 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3028,7 +3439,7 @@
 		)
 		(uuid "c97401c5-7e03-4d93-a14f-f692468677b5")
 		(property "Sheetname" "shared_buzzer"
-			(at 53.34 217.7284 0)
+			(at 52.07 173.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3448,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
-			(at 53.34 230.4546 0)
+			(at 52.07 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3457,7 @@
 			)
 		)
 		(pin "BUZZER" input
-			(at 53.34 223.52 180)
+			(at 52.07 179.07 180)
 			(uuid "bf92b5f2-00a8-48c9-ad9f-7a208dbb88f7")
 			(effects
 				(font
@@ -3064,7 +3475,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 158.75)
+		(at 52.07 114.3)
 		(size 40.64 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3080,7 +3491,7 @@
 		)
 		(uuid "cb7fc79f-a21e-4f3e-a003-80932d60a7a0")
 		(property "Sheetname" "power"
-			(at 53.34 158.0384 0)
+			(at 52.07 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3500,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 53.34 203.7846 0)
+			(at 52.07 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3509,7 @@
 			)
 		)
 		(pin "GND_ISO" input
-			(at 93.98 194.31 0)
+			(at 92.71 149.86 0)
 			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
 			(effects
 				(font
@@ -3108,7 +3519,7 @@
 			)
 		)
 		(pin "+5V_ISO" output
-			(at 93.98 187.96 0)
+			(at 92.71 143.51 0)
 			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
 			(effects
 				(font
