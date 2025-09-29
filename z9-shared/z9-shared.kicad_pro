@@ -813,12 +813,12 @@
       "Root"
     ],
     [
-      "1f4251eb-3452-4303-bba0-dce7319e59b1",
-      "shared_usbc"
-    ],
-    [
       "1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67",
       "shared_buzzer"
+    ],
+    [
+      "1f4251eb-3452-4303-bba0-dce7319e59b1",
+      "shared_usbc"
     ],
     [
       "a613cbdc-c893-46e2-859f-3c7622690192",
