@@ -16585,7 +16585,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "F?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17062,7 +17067,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "F?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17404,7 +17414,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17895,7 +17910,12 @@
 					(unit 1)
 				)
 			)
-)
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18070,7 +18090,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18376,7 +18401,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18716,7 +18746,12 @@
 					(unit 1)
 				)
 			)
-
+			(project "l8-kicad"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
