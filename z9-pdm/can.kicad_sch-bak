@@ -1564,7 +1564,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -1732,7 +1732,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "C25")
 					(unit 1)
 				)
@@ -1872,7 +1872,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "R1")
 					(unit 1)
 				)
@@ -2040,7 +2040,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "C22")
 					(unit 1)
 				)
@@ -2198,7 +2198,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "C24")
 					(unit 1)
 				)
@@ -2264,7 +2264,7 @@
 		)
 		(instances
 			(project ""
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -2370,7 +2370,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "JP2")
 					(unit 1)
 				)
@@ -2511,7 +2511,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/73909d3a-f2e9-43a1-adfe-e0aaff309cf7"
 					(reference "U2")
 					(unit 1)
 				)

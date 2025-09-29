@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8d063f79-9282-4820-bcf4-1ff3c006cf08")
+	(uuid "b643db5c-578e-4b48-aafc-cc4190db582a")
 	(paper "A3")
 	(title_block
 		(date "2024-05-30")
@@ -1627,7 +1627,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H2")
 					(unit 1)
 				)
@@ -1725,7 +1725,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "J3")
 					(unit 1)
 				)
@@ -1809,7 +1809,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H3")
 					(unit 1)
 				)
@@ -1875,7 +1875,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -1959,7 +1959,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H1")
 					(unit 1)
 				)
@@ -2043,7 +2043,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H4")
 					(unit 1)
 				)
@@ -2413,7 +2413,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "7")
 				)
 			)
@@ -2511,7 +2511,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "2")
 				)
 			)
@@ -2689,7 +2689,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "4")
 				)
 			)
@@ -2857,7 +2857,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "6")
 				)
 			)
@@ -2935,7 +2935,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "7")
 				)
 			)
@@ -3003,7 +3003,7 @@
 		)
 		(instances
 			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "5")
 				)
 			)
