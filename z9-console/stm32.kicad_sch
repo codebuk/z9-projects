@@ -10342,15 +10342,6 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" ""
-			(at 153.035 -129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part #" ""
 			(at 207.01 229.87 0)
 			(effects
@@ -13287,15 +13278,6 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" "stm32f407_board"
-			(at 215.265 -33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C115962"
 			(at 203.2 255.27 0)
 			(effects
@@ -14686,15 +14668,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" "stm32f407_board"
-			(at -17.145 355.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16749,15 +16722,6 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" ""
-			(at -17.145 347.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C23630"
 			(at 123.19 222.25 90)
 			(effects
@@ -18696,15 +18660,6 @@
 				(hide yes)
 			)
 		)
-		(property "PageName" ""
-			(at 194.945 541.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part #" "CL10C180JB8NNNC"
 			(at 72.39 128.27 0)
 			(effects
@@ -20108,15 +20063,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PageName" ""
-			(at 179.705 556.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)

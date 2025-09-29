@@ -644,7 +644,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -684,18 +684,6 @@
         },
         {
           "group_by": false,
-          "label": "PageName",
-          "name": "PageName",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Silkscreen",
-          "name": "Silkscreen",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -728,7 +716,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -957,6 +945,48 @@
           "label": "Diode Configuration",
           "name": "Diode Configuration",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order",
+          "name": "Order",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part#",
+          "name": "Part#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part #",
+          "name": "Part #",
+          "show": true
         }
       ],
       "filter_string": "",

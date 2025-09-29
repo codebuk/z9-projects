@@ -6298,15 +6298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 48.26 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C1975873"
 			(at 48.26 58.42 0)
 			(effects
