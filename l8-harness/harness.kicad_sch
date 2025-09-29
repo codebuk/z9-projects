@@ -16892,14 +16892,7 @@
 		(pin "2"
 			(uuid "fdcea297-6c70-4573-9e80-50e57148e0f4")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "F?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x21_Pin")
@@ -17344,14 +17337,7 @@
 		(pin "2"
 			(uuid "ce250ff5-c657-4911-b90e-5de12905f929")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "F?")
-					(unit 1)
-				)
-			)
-		)
+	
 	)
 	(symbol
 		(lib_id "dnt:Solenoid")
@@ -17667,14 +17653,7 @@
 		(pin "1"
 			(uuid "7f1cb7bf-27f6-4348-99b6-79817f82d44c")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 	(symbol
 		(lib_id "dnt:Solenoid")
@@ -18127,14 +18106,7 @@
 		(pin "4"
 			(uuid "2fcd7fb3-c8cb-4595-a2fe-fc8e6cc75d89")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 	(symbol
 		(lib_id "dnt:Solenoid")
@@ -18295,14 +18267,7 @@
 		(pin "7"
 			(uuid "404fd0c8-2828-4a55-9f6c-f3e4fd0c40ea")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
@@ -18589,14 +18554,7 @@
 		(pin "4"
 			(uuid "1ece9a80-b620-408c-8a97-a438ef5658d5")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
@@ -18910,13 +18868,6 @@
 		(pin "1"
 			(uuid "2d382cc6-10f1-4410-b6d0-03db71392d36")
 		)
-		(instances
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
+
 	)
 )
