@@ -2143,7 +2143,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "Q?")
+					(reference "Q701")
 					(unit 1)
 				)
 			)
@@ -2414,7 +2414,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "D?")
+					(reference "D701")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2492,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR?")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR?")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2831,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "C?")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -2976,7 +2976,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "BZ?")
+					(reference "BZ701")
 					(unit 1)
 				)
 			)
@@ -3264,7 +3264,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "R?")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3551,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "R?")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3629,7 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR?")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
