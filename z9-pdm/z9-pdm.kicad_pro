@@ -595,7 +595,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 950,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1105,10 +1105,6 @@
       "VN9E30F"
     ],
     [
-      "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364",
-      "shared_usb"
-    ],
-    [
       "00000000-0000-0000-0000-00005d0250fb",
       "MCU"
     ],
@@ -1161,12 +1157,16 @@
       "Analogue Input Stage8"
     ],
     [
-      "2345b862-d871-4771-9bee-01079d71c128",
-      "shared_can_isolated"
-    ],
-    [
       "c97401c5-7e03-4d93-a14f-f692468677b5",
       "shared_buzzer_2"
+    ],
+    [
+      "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364",
+      "shared_usb"
+    ],
+    [
+      "2345b862-d871-4771-9bee-01079d71c128",
+      "shared_can_isolated"
     ]
   ],
   "text_variables": {}

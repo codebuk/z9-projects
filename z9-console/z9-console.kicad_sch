@@ -2094,7 +2094,7 @@
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "8")
+					(page "700")
 				)
 			)
 		)
@@ -2348,7 +2348,7 @@
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "8")
+					(page "800")
 				)
 			)
 		)
@@ -2441,7 +2441,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f6275c7c-4728-4868-9630-23eeb36e7047")
-		(property "Sheetname" "sared isolated can"
+		(property "Sheetname" "shared isolated can"
 			(at 299.72 22.1484 0)
 			(effects
 				(font
@@ -2522,7 +2522,7 @@
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "9")
+					(page "950")
 				)
 			)
 		)

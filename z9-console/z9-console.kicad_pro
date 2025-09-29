@@ -588,7 +588,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 700,
+    "annotate_start_num": 950,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -988,6 +988,10 @@
       "MCU"
     ],
     [
+      "5e6a80fc-35e2-4400-b186-55b53b504bae",
+      "connectors"
+    ],
+    [
       "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201",
       "shared buzzer"
     ],
@@ -997,11 +1001,7 @@
     ],
     [
       "f6275c7c-4728-4868-9630-23eeb36e7047",
-      "sared isolated can"
-    ],
-    [
-      "5e6a80fc-35e2-4400-b186-55b53b504bae",
-      "connectors"
+      "shared isolated can"
     ]
   ],
   "text_variables": {}
