@@ -3438,7 +3438,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c97401c5-7e03-4d93-a14f-f692468677b5")
-		(property "Sheetname" "shared_buzzer"
+		(property "Sheetname" "shared_buzzer_2"
 			(at 52.07 173.2784 0)
 			(effects
 				(font
