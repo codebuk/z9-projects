@@ -2117,6 +2117,7 @@
 		(uuid "98bf8f66-79b9-41fc-9cd7-550fbae3319a")
 		(property "Sheetname" "lcd"
 			(at 53.34 29.7684 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,6 +2127,7 @@
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
 			(at 53.34 111.0746 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
