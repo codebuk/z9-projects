@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      140,
+      117,
+      106,
+      117,
+      110,
+      152,
+      200,
+      138,
+      134,
+      385
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -110,8 +110,8 @@
     "group_by_netclass": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
-    "sort_ascending": true,
-    "sorting_column": 0
+    "sort_ascending": false,
+    "sorting_column": 2
   },
   "open_jobsets": [],
   "project": {

@@ -548,7 +548,16 @@
 				)
 			)
 			(property "Description" "iNEMO inertial module with embedded Machine Learning Core: always-on 3D accelerometer and 3D gyroscope with digital output for industrial applications, LGA-14"
-				(at 1.27 5.08 0)
+				(at 0.508 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2655101"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2584,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 260.35 78.74)
+			(xy 245.11 78.74) (xy 287.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 68.58) (xy 264.16 68.58)
+			(xy 260.35 68.58) (xy 287.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 81.28) (xy 260.35 81.28)
+			(xy 250.19 81.28) (xy 287.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +2935,7 @@
 	)
 	(hierarchical_label "ST_SENSOR_CS"
 		(shape input)
-		(at 264.16 68.58 0)
+		(at 287.02 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2970,7 +2979,7 @@
 	)
 	(hierarchical_label "ST_SENSOR_INT2"
 		(shape output)
-		(at 260.35 78.74 0)
+		(at 287.02 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2992,7 +3001,7 @@
 	)
 	(hierarchical_label "ST_SENSOR__INT1"
 		(shape input)
-		(at 260.35 81.28 0)
+		(at 287.02 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,6 +4182,15 @@
 		)
 		(property "Description" "iNEMO inertial module with embedded Machine Learning Core: always-on 3D accelerometer and 3D gyroscope with digital output for industrial applications, LGA-14"
 			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2655101"
+			(at 118.11 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
