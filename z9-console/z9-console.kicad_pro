@@ -987,6 +987,12 @@
           "label": "Part #",
           "name": "Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Silkscreen",
+          "name": "Silkscreen",
+          "show": false
         }
       ],
       "filter_string": "",
