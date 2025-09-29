@@ -5445,9 +5445,9 @@
 		)
 		(uuid "1972dc8b-9f54-4e61-851f-976fe47adb2e")
 	)
-	(text "SCS-200"
+	(text "z9-pdm-901"
 		(exclude_from_sim no)
-		(at 285.496 202.184 0)
+		(at 305.816 152.654 90)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -5486,12 +5486,6 @@
 		(uuid "07193200-5b97-40f7-bee0-37a95032452b")
 	)
 	(junction
-		(at 259.08 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1339bcbd-2e66-474f-b2a7-c49bc39706cc")
-	)
-	(junction
 		(at 30.48 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5504,12 +5498,6 @@
 		(uuid "30a03996-f8f6-4942-90f2-4f66769722db")
 	)
 	(junction
-		(at 259.08 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33137440-2a24-4847-a594-509107d98689")
-	)
-	(junction
 		(at 330.2 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5520,12 +5508,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66ce442f-df26-48bd-8dc3-b244efacf83b")
-	)
-	(junction
-		(at 242.57 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f897329-a6df-495a-a199-4172501cb418")
 	)
 	(junction
 		(at 330.2 74.93)
@@ -5574,12 +5556,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4737a13-2fbe-4b38-b7b2-70af0982ca27")
-	)
-	(junction
-		(at 250.19 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d50a9a49-76de-4445-8eaa-005473a93308")
 	)
 	(junction
 		(at 242.57 255.27)
@@ -5875,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 115.57) (xy 242.57 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3360535c-6d65-4919-8963-8c7a26423a58")
-	)
-	(wire
-		(pts
 			(xy 330.2 187.96) (xy 378.46 187.96)
 		)
 		(stroke
@@ -5982,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "45f8f688-5236-4549-9d6b-fc002265577e")
-	)
-	(wire
-		(pts
-			(xy 256.54 115.57) (xy 250.19 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4761adba-a587-4ab5-97e3-7e6ceb6454e8")
 	)
 	(wire
 		(pts
@@ -6225,16 +6181,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 111.76) (xy 259.08 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b78d736-bf73-40ae-9d94-103ef8f0b60b")
-	)
-	(wire
-		(pts
 			(xy 236.22 212.09) (xy 240.03 212.09)
 		)
 		(stroke
@@ -6402,6 +6348,16 @@
 			(type default)
 		)
 		(uuid "9612367b-fb66-45cc-bcf3-472c88069e7f")
+	)
+	(wire
+		(pts
+			(xy 250.19 115.57) (xy 256.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997d40ee-a008-4182-92d9-c5760303c318")
 	)
 	(wire
 		(pts
@@ -6592,16 +6548,6 @@
 			(type default)
 		)
 		(uuid "ae1c5859-4642-437e-b425-f1d66463b52b")
-	)
-	(wire
-		(pts
-			(xy 259.08 111.76) (xy 259.08 113.03)
-		)
-		(stroke
-			(width 0.6096)
-			(type default)
-		)
-		(uuid "af35a323-c36a-44b1-a3e9-b1b5bc720568")
 	)
 	(wire
 		(pts
@@ -16639,12 +16585,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "F?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(symbol
@@ -17121,12 +17062,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "F?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(symbol
@@ -17468,12 +17404,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(symbol
@@ -17964,12 +17895,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
+)
 		)
 	)
 	(symbol
@@ -18144,12 +18070,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(symbol
@@ -18455,12 +18376,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(symbol
@@ -18800,12 +18716,7 @@
 					(unit 1)
 				)
 			)
-			(project "l8-kicad"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/7e7337b1-059d-4ab8-9395-7caeb2927373"
-					(reference "J?")
-					(unit 1)
-				)
-			)
+
 		)
 	)
 	(sheet_instances
