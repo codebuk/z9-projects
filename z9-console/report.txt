@@ -1,9 +1,0 @@
-Updated GND from #PWR0805 to #PWR0804.
-Updated GND from #PWR0806 to #PWR0805.
-Updated +5V from #PWR0804 to #PWR0806.
-Updated SRV05-4 from D802 to D801.
-Updated B5819W SL from D801 to D802.
-Updated 10K from R702 to R804.
-Updated 2.2K from R701 to R805.
-Annotation complete.
-Annotation complete.
