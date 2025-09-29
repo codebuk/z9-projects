@@ -3543,15 +3543,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "TPS22919DCKR_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -4079,6 +4070,12 @@
 		(uuid "13e3027f-beb7-42c4-8e2f-d1e33c1504d6")
 	)
 	(junction
+		(at 96.52 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "149c54f6-e239-449c-a11d-407ae0e8ea94")
+	)
+	(junction
 		(at 276.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4095,12 +4092,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e5835d-0cba-44e2-bdf7-1ebf03fddca3")
-	)
-	(junction
-		(at 104.14 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b40f05d-69c9-45de-b44f-8c4905dba2d9")
 	)
 	(junction
 		(at 121.92 76.2)
@@ -4760,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 118.11) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea5b802-91e4-4d86-8e8b-666bb44254e7")
+	)
+	(wire
+		(pts
 			(xy 201.93 29.21) (xy 274.32 29.21)
 		)
 		(stroke
@@ -5047,16 +5048,6 @@
 			(type default)
 		)
 		(uuid "ed470581-1510-4c96-9270-04717746e816")
-	)
-	(wire
-		(pts
-			(xy 104.14 22.86) (xy 111.76 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7585c9-1df2-42b9-b30f-6da0ac7723e5")
 	)
 	(wire
 		(pts
@@ -5912,6 +5903,227 @@
 		)
 	)
 	(symbol
+		(lib_id "dnt_global:Resistor_0402,10kΩ")
+		(at 96.52 130.81 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "250958a9-c2e7-420c-8d97-50000747941f")
+		(property "Reference" "R20"
+			(at 98.552 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 94.742 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "24372091"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6334582-6766-4c2f-b4b3-710b04976989")
+		)
+		(pin "2"
+			(uuid "eeefcd52-ee3e-4681-8e59-e624c31147b6")
+		)
+		(instances
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:XC6206PxxxMR")
 		(at 194.31 29.21 0)
 		(unit 1)
@@ -6001,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS22917DBV"
+		(property "Value" "TPS22919DCKR"
 			(at 50.8 17.78 0)
 			(effects
 				(font
@@ -7603,6 +7815,72 @@
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a65e24-a397-459b-b836-f2ed9ceee47b")
+		(property "Reference" "#PWR036"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66531f93-e608-4810-9ddc-07dd3c178d8a")
+		)
+		(instances
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/98bf8f66-79b9-41fc-9cd7-550fbae3319a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
