@@ -588,7 +588,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 1,
+    "annotate_start_num": 700,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -972,10 +972,6 @@
       "Root"
     ],
     [
-      "73909d3a-f2e9-43a1-adfe-e0aaff309cf7",
-      "can"
-    ],
-    [
       "801ffdec-7184-42a0-bbdb-64e97598ca97",
       "sensor"
     ],
@@ -998,6 +994,14 @@
     [
       "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58",
       "shared usbc"
+    ],
+    [
+      "f6275c7c-4728-4868-9630-23eeb36e7047",
+      "sared isolated can"
+    ],
+    [
+      "5e6a80fc-35e2-4400-b186-55b53b504bae",
+      "connectors"
     ]
   ],
   "text_variables": {}

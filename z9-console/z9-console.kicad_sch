@@ -92,6 +92,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 265.43 15.24)
+		(end 403.86 234.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c5245dc1-1434-4a56-9742-3fa1b5133f2d)
+	)
 	(text "ST_SENSOR"
 		(exclude_from_sim no)
 		(at 240.03 128.27 0)
@@ -267,7 +279,7 @@
 		(uuid "01ae9784-43aa-4a65-8acf-8df27603250c")
 	)
 	(label "SPI1_IRQ"
-		(at 92.71 228.6 0)
+		(at 92.71 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -287,7 +299,7 @@
 		(uuid "06de7516-903e-42f1-8a05-3684d6b0ae96")
 	)
 	(label "+5V_ISO"
-		(at 93.98 187.96 0)
+		(at 93.98 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -296,8 +308,28 @@
 		)
 		(uuid "0d48f440-8eee-43c0-899c-e2c8f6a2e3c3")
 	)
+	(label "GND_ISO"
+		(at 299.72 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13b17902-6dac-4a5b-95d6-4c560d6d4440")
+	)
+	(label "CAN_L"
+		(at 350.52 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "176176da-95cf-4c77-a04e-93de65cb1d4a")
+	)
 	(label "SPI1_CS"
-		(at 92.71 223.52 0)
+		(at 92.71 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -317,7 +349,7 @@
 		(uuid "1e196023-b907-4cbc-a8f1-47803a6bb727")
 	)
 	(label "SPI1_IRQ2"
-		(at 92.71 231.14 0)
+		(at 92.71 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -325,6 +357,16 @@
 			(justify left bottom)
 		)
 		(uuid "2139456b-14e4-4847-951c-ccb040c21eec")
+	)
+	(label "GND_ISO"
+		(at 53.34 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "290357f4-e07e-477a-a1f2-593aa397dccc")
 	)
 	(label "LCD_LED"
 		(at 95.25 78.74 0)
@@ -347,7 +389,7 @@
 		(uuid "2a108980-2dba-4c27-ad2a-6bad9ae58607")
 	)
 	(label "PE13"
-		(at 299.72 76.2 180)
+		(at 300.99 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -366,6 +408,16 @@
 		)
 		(uuid "2f81eee7-f01e-4b49-88a4-5bc5fb4630bb")
 	)
+	(label "CAN_H"
+		(at 350.52 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "342ac598-3ae4-4e08-a6ec-47bfd38b81c2")
+	)
 	(label "SPI3_SDI"
 		(at 95.25 52.07 0)
 		(effects
@@ -377,7 +429,7 @@
 		(uuid "34e36949-1c73-496a-9ac5-f7fb7784c537")
 	)
 	(label "USB_OTG_FS_DP"
-		(at 350.52 129.54 0)
+		(at 351.79 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -385,6 +437,16 @@
 			(justify left bottom)
 		)
 		(uuid "3519471c-cf35-4d26-b352-34b352c43dc0")
+	)
+	(label "CAN1_TX"
+		(at 299.72 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37b5f22e-9227-46cf-bd7f-196d04db5873")
 	)
 	(label "USB_OTG_FS_DP"
 		(at 180.34 93.98 180)
@@ -437,7 +499,7 @@
 		(uuid "4d6db920-3ec1-446b-a5b8-8ddaf8f3acdb")
 	)
 	(label "SPI2_SDO"
-		(at 92.71 242.57 0)
+		(at 92.71 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -457,7 +519,7 @@
 		(uuid "50b60750-001e-434c-96f7-739f27dd5aa1")
 	)
 	(label "GND_ISO"
-		(at 93.98 194.31 0)
+		(at 93.98 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -487,7 +549,7 @@
 		(uuid "5831e703-1ee4-470f-8ba6-1238f3f75965")
 	)
 	(label "SPI2_IRQ"
-		(at 92.71 247.65 0)
+		(at 92.71 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -547,7 +609,7 @@
 		(uuid "6b128eee-e05b-4439-8996-182affc37a9e")
 	)
 	(label "SPI1_SDO"
-		(at 92.71 220.98 0)
+		(at 92.71 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -577,7 +639,7 @@
 		(uuid "73f4831e-7244-4500-bb96-94d59115b90c")
 	)
 	(label "USB_OTG_FS_VBUS"
-		(at 350.52 133.35 0)
+		(at 351.79 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -587,7 +649,7 @@
 		(uuid "7a20c6c5-7b38-405f-a326-3b9a6a82e049")
 	)
 	(label "SPI2_CS"
-		(at 92.71 245.11 0)
+		(at 92.71 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -597,7 +659,7 @@
 		(uuid "7bb19287-4c27-44a1-9794-1a504ae05791")
 	)
 	(label "SPI2_SCK"
-		(at 92.71 237.49 0)
+		(at 92.71 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -625,26 +687,6 @@
 			(justify left bottom)
 		)
 		(uuid "7e6c892d-0fc1-417f-9938-112560dcfba9")
-	)
-	(label "CAN1_RX"
-		(at 53.34 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "810ae260-0621-4ccd-868f-a7492498c8e5")
-	)
-	(label "CAN1_TX"
-		(at 53.34 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86ae8234-2187-413b-b370-df42032376bf")
 	)
 	(label "SPI3_SCK"
 		(at 95.25 46.99 0)
@@ -697,7 +739,7 @@
 		(uuid "9fdf0565-59fd-449f-92fe-706a32eae6cc")
 	)
 	(label "SPI1_SDI"
-		(at 92.71 218.44 0)
+		(at 92.71 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -735,6 +777,16 @@
 			(justify left bottom)
 		)
 		(uuid "aafe49cd-e8ea-450e-9f26-00f7ee87bad0")
+	)
+	(label "CAN_H"
+		(at 53.34 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3493211-7cfd-4c52-9b0f-b91c5c213cc2")
 	)
 	(label "SPI4_SCK"
 		(at 95.25 66.04 0)
@@ -776,6 +828,16 @@
 		)
 		(uuid "c0aa26e3-fe12-4d3f-9270-46207054b4ca")
 	)
+	(label "CAN_L"
+		(at 53.34 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1c23975-38db-468c-8683-0675da0ad7fb")
+	)
 	(label "SYS_WAKEUP"
 		(at 95.25 100.33 0)
 		(effects
@@ -797,7 +859,7 @@
 		(uuid "c2d34a90-18dc-45c6-9415-9fdce2c1811f")
 	)
 	(label "SPI1_SCK"
-		(at 92.71 215.9 0)
+		(at 92.71 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -827,7 +889,7 @@
 		(uuid "cef6dbac-f731-4839-b775-3ea9eb12c02b")
 	)
 	(label "SPI2_SDI"
-		(at 92.71 240.03 0)
+		(at 92.71 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -837,7 +899,7 @@
 		(uuid "cf5358d1-4cdd-4c97-af1d-2d1006cef741")
 	)
 	(label "SPI1_CS2"
-		(at 92.71 226.06 0)
+		(at 92.71 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,18 +908,28 @@
 		)
 		(uuid "d0ed655e-d96d-43bc-a844-6bf592706834")
 	)
-	(label "+5V_ISO"
-		(at 53.34 139.7 180)
+	(label "CAN1_RX"
+		(at 299.72 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d59dc7c5-2566-49b1-9389-52c597b8fb19")
+		(uuid "d49fe4f1-e603-4ac6-8974-835809c8716f")
+	)
+	(label "+5V_ISO"
+		(at 299.72 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc3c5b8a-e6b6-4a2a-ad18-4f52ce2a8495")
 	)
 	(label "VBATT"
-		(at 53.34 167.64 180)
+		(at 53.34 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -896,16 +968,6 @@
 		)
 		(uuid "e956b55c-e5c4-4e89-80a8-86507f7f3d0a")
 	)
-	(label "GND_ISO"
-		(at 53.34 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb7ca54e-3d98-47c0-86f7-7f9ca04fe25f")
-	)
 	(label "SPI4_CS_2"
 		(at 222.25 215.9 0)
 		(effects
@@ -917,7 +979,7 @@
 		(uuid "ee2b311b-2ad3-40e3-8e36-940e545b1e27")
 	)
 	(label "SPI2_IRQ2"
-		(at 92.71 250.19 0)
+		(at 92.71 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -937,7 +999,7 @@
 		(uuid "f00a87ab-e98f-4f65-a332-69d864fb516e")
 	)
 	(label "USB_OTG_FS_DM"
-		(at 350.52 125.73 0)
+		(at 351.79 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -945,16 +1007,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3d3b1eb-3a08-4886-aa33-8182408d07da")
-	)
-	(label "VBATT"
-		(at 95.25 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f48d8032-3697-4d4c-b04a-226ec527d31d")
 	)
 	(label "SPI1_SCK"
 		(at 212.09 119.38 0)
@@ -965,6 +1017,16 @@
 			(justify left bottom)
 		)
 		(uuid "f93fbd57-ec23-4534-b411-1589815491ee")
+	)
+	(label "VBATT"
+		(at 53.34 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc2a4a72-4f3b-4ec0-8c71-480307b9e2a0")
 	)
 	(label "SPI2_SCK"
 		(at 212.09 148.59 0)
@@ -1732,8 +1794,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 120.65)
-		(size 41.91 26.67)
+		(at 53.34 223.52)
+		(size 39.37 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1746,9 +1808,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "73909d3a-f2e9-43a1-adfe-e0aaff309cf7")
-		(property "Sheetname" "can"
-			(at 53.34 119.9384 0)
+		(uuid "5e6a80fc-35e2-4400-b186-55b53b504bae")
+		(property "Sheetname" "connectors"
+			(at 53.34 222.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,8 +1818,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "can.kicad_sch"
-			(at 53.34 147.9046 0)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 53.34 240.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,39 +1827,29 @@
 				(justify left top)
 			)
 		)
+		(pin "CAN_H" bidirectional
+			(at 53.34 229.87 180)
+			(uuid "814f60f7-db5e-441d-9445-49d5c4cc6805")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 53.34 226.06 180)
+			(uuid "b5ba05b6-ef47-4073-b3cb-bde5456754be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "GND_ISO" input
-			(at 53.34 143.51 180)
-			(uuid "474f1754-2743-4fa9-9622-a909d1cc225f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V_ISO" input
-			(at 53.34 139.7 180)
-			(uuid "cb841d38-3349-40f0-8e26-12f4e4ba75cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_TX" input
-			(at 53.34 123.19 180)
-			(uuid "2b0713f0-950c-4e9e-ac7d-4e0d8e1bac67")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_RX" input
-			(at 53.34 125.73 180)
-			(uuid "6bf7a723-7be0-4824-957c-6b91b7bf893b")
+			(at 53.34 233.68 180)
+			(uuid "00049718-7552-41f2-89c6-e7cbef41ceb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,25 +1858,25 @@
 			)
 		)
 		(pin "VBATT" output
-			(at 95.25 123.19 0)
-			(uuid "f8c895f9-5f70-4672-b061-abd778074089")
+			(at 53.34 237.49 180)
+			(uuid "16c99849-d4ee-4c88-82dd-4e31508b8a23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "2")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 52.07 212.09)
+		(at 52.07 172.72)
 		(size 40.64 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1840,7 +1892,7 @@
 		)
 		(uuid "801ffdec-7184-42a0-bbdb-64e97598ca97")
 		(property "Sheetname" "sensor"
-			(at 52.07 211.3784 0)
+			(at 52.07 172.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1901,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 52.07 254.5846 0)
+			(at 52.07 215.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1910,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_INT2" input
-			(at 92.71 250.19 0)
+			(at 92.71 210.82 0)
 			(uuid "dd58a7be-0943-49d8-b31a-c8310fc57c85")
 			(effects
 				(font
@@ -1868,7 +1920,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_INT1" input
-			(at 92.71 247.65 0)
+			(at 92.71 208.28 0)
 			(uuid "3b03b610-bada-44ba-b2ec-a9b2396355e2")
 			(effects
 				(font
@@ -1878,7 +1930,7 @@
 			)
 		)
 		(pin "ST_SENSOR_SDO" input
-			(at 92.71 218.44 0)
+			(at 92.71 179.07 0)
 			(uuid "46f1d92a-de0e-4eb5-835c-c397a53dcaf6")
 			(effects
 				(font
@@ -1888,7 +1940,7 @@
 			)
 		)
 		(pin "ST_SENSOR_SDI" input
-			(at 92.71 220.98 0)
+			(at 92.71 181.61 0)
 			(uuid "8506c858-afb0-45c4-9079-7fed191940f4")
 			(effects
 				(font
@@ -1898,7 +1950,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_SDO" input
-			(at 92.71 240.03 0)
+			(at 92.71 200.66 0)
 			(uuid "25c3c080-0125-4fc5-b63d-1a1fa2da7e3f")
 			(effects
 				(font
@@ -1908,7 +1960,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_CS" input
-			(at 92.71 245.11 0)
+			(at 92.71 205.74 0)
 			(uuid "dda62b43-b022-44db-8a6a-05385bc7fe50")
 			(effects
 				(font
@@ -1918,7 +1970,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_SDI" input
-			(at 92.71 242.57 0)
+			(at 92.71 203.2 0)
 			(uuid "6cfe8fa4-f285-4d3c-93bd-d8a2f5a56964")
 			(effects
 				(font
@@ -1928,7 +1980,7 @@
 			)
 		)
 		(pin "ST_SENSOR_CS" input
-			(at 92.71 223.52 0)
+			(at 92.71 184.15 0)
 			(uuid "e3fbf003-f36b-4b16-a887-f12f073bc358")
 			(effects
 				(font
@@ -1938,7 +1990,7 @@
 			)
 		)
 		(pin "ST_SENSOR_CS2" input
-			(at 92.71 226.06 0)
+			(at 92.71 186.69 0)
 			(uuid "dd908fe3-3904-4d40-83dd-19b555efe735")
 			(effects
 				(font
@@ -1948,7 +2000,7 @@
 			)
 		)
 		(pin "ST_SENSOR__INT1" input
-			(at 92.71 228.6 0)
+			(at 92.71 189.23 0)
 			(uuid "fd0b2085-829a-44c2-82cb-2e06df1f3a89")
 			(effects
 				(font
@@ -1958,7 +2010,7 @@
 			)
 		)
 		(pin "ST_SENSOR_INT2" input
-			(at 92.71 231.14 0)
+			(at 92.71 191.77 0)
 			(uuid "be9be5ad-6cf9-4e9b-b09f-71448fbbde48")
 			(effects
 				(font
@@ -1968,7 +2020,7 @@
 			)
 		)
 		(pin "ST_SENSOR_SCK" input
-			(at 92.71 215.9 0)
+			(at 92.71 176.53 0)
 			(uuid "a0a05881-3327-4c9e-9cb9-f1d9da1727e4")
 			(effects
 				(font
@@ -1978,7 +2030,7 @@
 			)
 		)
 		(pin "IIS3DHHCTR_SCK" input
-			(at 92.71 237.49 0)
+			(at 92.71 198.12 0)
 			(uuid "125e2572-9ea4-4f53-af44-754bf1924536")
 			(effects
 				(font
@@ -1996,7 +2048,7 @@
 		)
 	)
 	(sheet
-		(at 299.72 68.58)
+		(at 300.99 54.61)
 		(size 50.8 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +2064,7 @@
 		)
 		(uuid "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201")
 		(property "Sheetname" "shared buzzer"
-			(at 299.72 67.8684 0)
+			(at 300.99 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2073,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
-			(at 299.72 85.6746 0)
+			(at 300.99 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2082,7 @@
 			)
 		)
 		(pin "BUZZER" input
-			(at 299.72 76.2 180)
+			(at 300.99 62.23 180)
 			(uuid "812edb31-3aa6-4696-a183-65f5f0145f6c")
 			(effects
 				(font
@@ -2230,8 +2282,8 @@
 		)
 	)
 	(sheet
-		(at 299.72 115.57)
-		(size 50.8 58.42)
+		(at 300.99 83.82)
+		(size 50.8 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2246,7 +2298,7 @@
 		)
 		(uuid "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58")
 		(property "Sheetname" "shared usbc"
-			(at 299.72 114.8584 0)
+			(at 300.99 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2307,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_usbc.kicad_sch"
-			(at 299.72 174.5746 0)
+			(at 300.99 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2316,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
-			(at 350.52 125.73 0)
+			(at 351.79 91.44 0)
 			(uuid "b6ddfb0c-27f2-4779-a42b-6a4eb24f077d")
 			(effects
 				(font
@@ -2274,7 +2326,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
-			(at 350.52 129.54 0)
+			(at 351.79 95.25 0)
 			(uuid "4a4f1632-d3d8-4008-94dc-dcb15b66b05b")
 			(effects
 				(font
@@ -2284,7 +2336,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_VBUS" output
-			(at 350.52 133.35 0)
+			(at 351.79 99.06 0)
 			(uuid "eb602a51-0c15-43fc-a7df-5e003794bb41")
 			(effects
 				(font
@@ -2302,7 +2354,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 158.75)
+		(at 53.34 119.38)
 		(size 40.64 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2318,7 +2370,7 @@
 		)
 		(uuid "cb7fc79f-a21e-4f3e-a003-80932d60a7a0")
 		(property "Sheetname" "power"
-			(at 53.34 158.0384 0)
+			(at 53.34 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2379,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 53.34 203.7846 0)
+			(at 53.34 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2388,7 @@
 			)
 		)
 		(pin "GND_ISO" input
-			(at 93.98 194.31 0)
+			(at 93.98 154.94 0)
 			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
 			(effects
 				(font
@@ -2346,7 +2398,7 @@
 			)
 		)
 		(pin "+5V_ISO" output
-			(at 93.98 187.96 0)
+			(at 93.98 148.59 0)
 			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
 			(effects
 				(font
@@ -2356,7 +2408,7 @@
 			)
 		)
 		(pin "VBATT" input
-			(at 53.34 167.64 180)
+			(at 53.34 128.27 180)
 			(uuid "a544fca6-c259-4f85-b494-405b0961e0e7")
 			(effects
 				(font
@@ -2369,6 +2421,108 @@
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 299.72 22.86)
+		(size 50.8 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6275c7c-4728-4868-9630-23eeb36e7047")
+		(property "Sheetname" "sared isolated can"
+			(at 299.72 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../z9-shared/shared_isolated_can.kicad_sch"
+			(at 299.72 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_ISO" input
+			(at 299.72 38.1 180)
+			(uuid "21b08d7b-f1a1-4a46-82cd-f0ca1b9e5bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 350.52 33.02 0)
+			(uuid "4c64477a-b4ba-4d22-bfc9-090f696f8c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 350.52 29.21 0)
+			(uuid "013eee74-99e6-4146-8050-a71df87efa07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 299.72 30.48 180)
+			(uuid "a2377040-8ffa-4559-9530-8c88444f0ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 299.72 27.94 180)
+			(uuid "a44c8b61-e00b-45aa-a9c2-d99476ce0899")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_ISO" input
+			(at 299.72 41.91 180)
+			(uuid "50a0aab1-3889-4f57-b634-01e87e25bd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(page "9")
 				)
 			)
 		)
