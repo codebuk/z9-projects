@@ -856,18 +856,6 @@
 		(uuid "43342963-99e7-4293-ab8e-79987f9bc456")
 	)
 	(junction
-		(at 143.51 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59cd7dcc-0735-404e-985b-b81357e7f99c")
-	)
-	(junction
-		(at 148.59 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e824a4c-4122-47c5-a0ff-14fb2c8e5499")
-	)
-	(junction
 		(at 153.67 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -890,6 +878,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a892530f-45e4-47a6-8d07-b433bf87b7f6")
+	)
+	(junction
+		(at 148.59 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9418489-bffc-44e0-b148-7ae0d3a50e02")
+	)
+	(junction
+		(at 143.51 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3ba6582-0388-485a-86f2-ab9f1abf5dae")
 	)
 	(wire
 		(pts
@@ -920,16 +920,6 @@
 			(type default)
 		)
 		(uuid "0f53e421-3946-4cfa-bd93-2e1247b865ca")
-	)
-	(wire
-		(pts
-			(xy 148.59 74.93) (xy 125.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f5ad40-36df-4dd8-9b2e-bd9838904506")
 	)
 	(wire
 		(pts
@@ -980,16 +970,6 @@
 			(type default)
 		)
 		(uuid "3dcfb3fc-3477-4675-890c-35fcd78320bb")
-	)
-	(wire
-		(pts
-			(xy 125.73 72.39) (xy 143.51 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c10ff1-b58c-40aa-a3f6-36ca2bdd6692")
 	)
 	(wire
 		(pts
@@ -1073,6 +1053,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c76ade9-c015-4181-aec8-477f86036f9d")
+	)
+	(wire
+		(pts
 			(xy 143.51 72.39) (xy 181.61 72.39)
 		)
 		(stroke
@@ -1131,6 +1121,16 @@
 		)
 		(uuid "e9b8d787-6851-46a9-aa78-a263ffc5b276")
 	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57d4902-cdcc-4814-9b6f-3783fbb8c969")
+	)
 	(label "GND_ISO"
 		(at 181.61 69.85 180)
 		(effects
@@ -1174,7 +1174,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 125.73 72.39 180)
+		(at 125.73 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1196,7 +1196,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 125.73 74.93 180)
+		(at 125.73 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
