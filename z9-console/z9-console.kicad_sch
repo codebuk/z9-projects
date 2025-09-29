@@ -12,7 +12,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -77,255 +77,6 @@
 				)
 			)
 			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_2_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_3_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -734,16 +485,6 @@
 			(justify left bottom)
 		)
 		(uuid "5831e703-1ee4-470f-8ba6-1238f3f75965")
-	)
-	(label "SENSOR_ON"
-		(at 212.09 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58cda2d4-9548-47f0-9bf6-1dffabedba22")
 	)
 	(label "SPI2_IRQ"
 		(at 92.71 247.65 0)
@@ -1215,16 +956,6 @@
 		)
 		(uuid "f48d8032-3697-4d4c-b04a-226ec527d31d")
 	)
-	(label "SENSOR_ON"
-		(at 52.07 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f5bbb08b-4f7f-415e-9db3-eb3070b95e72")
-	)
 	(label "SPI1_SCK"
 		(at 212.09 119.38 0)
 		(effects
@@ -1246,7 +977,6 @@
 		(uuid "fcdd79fb-3a92-4eb4-b123-ec82a056fcc2")
 	)
 	(symbol
-		(lib_name "MountingHole_3")
 		(lib_id "Mechanical:MountingHole")
 		(at 388.62 245.11 0)
 		(unit 1)
@@ -1256,7 +986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6681e4-4252-424a-a8f3-96f38e5c3f1a")
-		(property "Reference" "H2"
+		(property "Reference" "H901"
 			(at 391.16 243.8399 0)
 			(effects
 				(font
@@ -1333,14 +1063,13 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(reference "H2")
+					(reference "H901")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
 		(at 393.7 245.11 0)
 		(unit 1)
@@ -1350,7 +1079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfaf5cbe-039d-4ddb-bc1c-548109137b08")
-		(property "Reference" "H3"
+		(property "Reference" "H902"
 			(at 396.24 243.8399 0)
 			(effects
 				(font
@@ -1427,14 +1156,13 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(reference "H3")
+					(reference "H902")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_2")
 		(lib_id "Mechanical:MountingHole")
 		(at 398.78 245.11 0)
 		(unit 1)
@@ -1444,7 +1172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf998a29-9a76-48ab-8a61-c9b92d2cabb8")
-		(property "Reference" "H1"
+		(property "Reference" "H903"
 			(at 401.32 243.8399 0)
 			(effects
 				(font
@@ -1521,7 +1249,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(reference "H1")
+					(reference "H903")
 					(unit 1)
 				)
 			)
@@ -1537,7 +1265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e684af9b-b4be-453d-bcab-c3a14ddc99dd")
-		(property "Reference" "H4"
+		(property "Reference" "H904"
 			(at 406.4 243.8399 0)
 			(effects
 				(font
@@ -1614,7 +1342,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(reference "H4")
+					(reference "H904")
 					(unit 1)
 				)
 			)
@@ -1823,16 +1551,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "SENSOR_ON" output
-			(at 212.09 113.03 0)
-			(uuid "75babf5a-3a45-4c6c-9d9c-3369bc7286ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "LCD_DC" output
@@ -2267,16 +1985,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "SENSOR_ON" input
-			(at 52.07 222.25 180)
-			(uuid "562591e8-9e05-4cb8-8cdf-70d2696922c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
