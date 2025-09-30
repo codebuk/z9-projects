@@ -16788,12 +16788,12 @@
 				)
 			)
 		)
-		(property "FT Rototation Offset" "180"
+		(property "FT Rotatation Offset" "180"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da1b78d4-e3dc-496c-b77c-321d760717fc")
+			(uuid "a7fbfbe4-3c6a-437b-8a45-c86d12e0b324")
 			(effects
 				(font
 					(size 1 1)
@@ -23264,7 +23264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "54K9"
+		(property "Value" "56K"
 			(at 0 0.2 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -39506,6 +39506,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "440f88e6-6a59-428d-88db-46dff8258a97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Q_*")
 		(path "/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201/2ae01731-a13c-4be2-8aa2-21711979cf0b")
 		(sheetname "/shared buzzer/")
@@ -43575,7 +43588,7 @@
 				)
 			)
 		)
-		(property "Value" "MicroSMP(DO-219AD)"
+		(property "Value" "V1P6-M3/H 60V 1A"
 			(at 0 1.65 180)
 			(unlocked yes)
 			(layer "F.Fab")

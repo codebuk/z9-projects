@@ -952,7 +952,7 @@
 					(hide yes)
 				)
 			)
-			(property "FT Rototation Offset" "180"
+			(property "FT Rotation Offset" "180"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4345,7 +4345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ba41d2-ee5d-4003-bb34-ed6187df3404")
-		(property "Reference" "U10"
+		(property "Reference" "U"
 			(at 120.2533 83.82 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rototation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 118.11 66.04 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 		(instances
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/801ffdec-7184-42a0-bbdb-64e97598ca97"
-					(reference "U10")
+					(reference "U")
 					(unit 1)
 				)
 			)
