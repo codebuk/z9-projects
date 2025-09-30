@@ -254,7 +254,7 @@
 	(net 135 "Net-(U8-PA10)")
 	(net 136 "unconnected-(U5-EN-Pad4)")
 	(net 137 "unconnected-(U6-NC-Pad8)")
-	(net 138 "unconnected-(U10-OCS_AUX-Pad10)")
+	(net 138 "unconnected-(U9-OCS_AUX-Pad10)")
 	(net 139 "unconnected-(U11-Pad9)")
 	(net 140 "unconnected-(U11-Pad7)")
 	(net 141 "unconnected-(U11-DIL_INT4-Pad17)")
@@ -16729,7 +16729,7 @@
 		(at 101.8 101.7125 180)
 		(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "LGA NoLead")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 4.5 -1.9375 0)
 			(layer "F.SilkS")
 			(uuid "7020b215-4c55-40b3-a10b-91f8c3c21ccc")
@@ -16794,6 +16794,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a7fbfbe4-3c6a-437b-8a45-c86d12e0b324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e45bdde-a60a-49a9-8e6e-2797e1d0dd69")
 			(effects
 				(font
 					(size 1 1)
@@ -17027,7 +17040,7 @@
 			(size 0.625 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 138 "unconnected-(U10-OCS_AUX-Pad10)")
+			(net 138 "unconnected-(U9-OCS_AUX-Pad10)")
 			(pinfunction "OCS_AUX")
 			(pintype "passive+no_connect")
 			(uuid "afb0ec13-8abc-4c22-921c-62a66d5a0aab")
