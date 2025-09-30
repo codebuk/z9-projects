@@ -3534,6 +3534,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C2149796"
+				(at 0.508 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "high-side power distribution switch"
 				(at 0 0 0)
 				(effects
@@ -6241,6 +6250,15 @@
 		)
 		(property "Description" "1.5A 1.6V~5.5V 89mΩ Active High Load Switch Short-Circuit Protection(SCP) SC-70-6 Power Distribution Switches ROHS"
 			(at 51.816 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2149796"
+			(at 51.308 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
