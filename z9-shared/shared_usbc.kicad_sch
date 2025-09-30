@@ -5,7 +5,8 @@
 	(uuid "1f11bca8-5815-40a7-b8ee-263189e52167")
 	(paper "A4")
 	(title_block
-		(title "l8")
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
 	)
 	(lib_symbols
 		(symbol "PCM_JLCPCB-Capacitors:0603,47nF"

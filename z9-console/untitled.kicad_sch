@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f4d1610f-a9d7-400f-8201-07e24024a234")
 	(paper "A4")
+	(title_block
+		(rev "v0.0.3")
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

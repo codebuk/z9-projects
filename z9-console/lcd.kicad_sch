@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "77caa2c6-00c7-478f-abfd-5898ace3f2f9")
 	(paper "A4")
+	(title_block
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols
 		(symbol "74xGxx:SN74LVC1G14DRL"
 			(exclude_from_sim no)

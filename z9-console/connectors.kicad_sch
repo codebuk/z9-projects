@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "ff807900-38a7-468c-8c88-36815649564b")
 	(paper "A4")
+	(title_block
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x06"
 			(pin_names

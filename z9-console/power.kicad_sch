@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "1cf15457-4859-483d-a63b-4ae322c064c2")
 	(paper "A4")
+	(title_block
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols)
 )

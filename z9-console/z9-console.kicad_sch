@@ -6,6 +6,8 @@
 	(paper "A3")
 	(title_block
 		(date "2024-05-30")
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"

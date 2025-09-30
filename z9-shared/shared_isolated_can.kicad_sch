@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "01fd732b-d28d-4591-958a-cdee10605b4f")
 	(paper "A4")
+	(title_block
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols
 		(symbol "dnt_global:0603,100nF"
 			(pin_numbers

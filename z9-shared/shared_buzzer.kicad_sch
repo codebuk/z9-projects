@@ -5,7 +5,8 @@
 	(uuid "58de86fb-6cef-462e-b9e3-6fa5d0bb0e90")
 	(paper "A4")
 	(title_block
-		(title "l8")
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
 	)
 	(lib_symbols
 		(symbol "PCM_JLCPCB-Diodes:Schottky,RB751S-40"

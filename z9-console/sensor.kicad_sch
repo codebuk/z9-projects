@@ -3,7 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c3d804c9-d3d9-43c8-8141-60d64a9de96f")
-	(paper "A3")
+	(paper "A4")
+	(title_block
+		(company "Zero9 -  0-9.au")
+		(comment 1 "Some schematic is shared ")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
