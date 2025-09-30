@@ -4342,7 +4342,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "JLCPCB Rotation Offset" ""
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "2.2k"
 			(at 184.15 115.57 90)
 			(do_not_autoplace yes)
 			(effects
