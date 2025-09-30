@@ -273,7 +273,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0603,100Ω"
+		(symbol "PCM_JLCPCB-Resistors:0402,100Ω"
 			(pin_numbers
 				(hide yes)
 			)
@@ -301,7 +301,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:R_0603"
+			(property "Footprint" "PCM_JLCPCB:R_0402"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -310,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -319,7 +319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mW Thick Film Resistors 75V ±1% ±200ppm/°C 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -328,7 +328,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C22775"
+			(property "LCSC" "C25076"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "8202320"
+			(property "Stock" "5907585"
 				(at 0 0 0)
 				(effects
 					(font
@@ -409,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "0603WAF1000T5E"
+			(property "Part" "0402WGF1000TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -427,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power(Watts)" "100mW"
+			(property "Power(Watts)" "62.5mW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -445,7 +445,7 @@
 					(hide yes)
 				)
 			)
-			(property "Overload Voltage (Max)" "75V"
+			(property "Overload Voltage (Max)" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -490,7 +490,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,100Ω_0_1"
+			(symbol "0402,100Ω_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -503,7 +503,7 @@
 					)
 				)
 			)
-			(symbol "0603,100Ω_1_1"
+			(symbol "0402,100Ω_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -543,7 +543,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0603,10kΩ"
+		(symbol "dnt_global:0402,10kΩ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -571,7 +571,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:R_0603"
+			(property "Footprint" "dnt:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -589,7 +589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,7 +598,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25804"
+			(property "LCSC" "C25744"
 				(at 0 0 0)
 				(effects
 					(font
@@ -607,7 +607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "51181774"
+			(property "Stock" "24372091"
 				(at 0 0 0)
 				(effects
 					(font
@@ -679,7 +679,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "0603WAF1002T5E"
+			(property "Part" "0402WGF1002TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -697,7 +697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power(Watts)" "100mW"
+			(property "Power(Watts)" "62.5mW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -715,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(property "Overload Voltage (Max)" "75V"
+			(property "Overload Voltage (Max)" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -760,7 +760,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,10kΩ_0_1"
+			(symbol "0402,10kΩ_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -773,7 +773,7 @@
 					)
 				)
 			)
-			(symbol "0603,10kΩ_1_1"
+			(symbol "0402,10kΩ_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2935,7 +2935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
+		(lib_id "dnt_global:0402,10kΩ")
 		(at 127 110.49 0)
 		(mirror x)
 		(unit 1)
@@ -2952,7 +2952,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10K"
 			(at 127 110.49 90)
 			(do_not_autoplace yes)
 			(effects
@@ -2961,7 +2961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "dnt:R_0402_1005Metric"
 			(at 125.222 110.49 90)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -2979,7 +2979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C25744"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -2997,7 +2997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51181774"
+		(property "Stock" "24372091"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3069,7 +3069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF1002T5E"
+		(property "Part" "0402WGF1002TCE"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3087,7 +3087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power(Watts)" "100mW"
+		(property "Power(Watts)" "62.5mW"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3105,7 +3105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Overload Voltage (Max)" "75V"
+		(property "Overload Voltage (Max)" "50V"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3141,60 +3141,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 127 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "456d2439-8681-4f0d-9f9e-4253dee23f26")
 		)
@@ -3223,7 +3169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,100Ω")
+		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
 		(at 121.92 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3239,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100R"
 			(at 121.92 99.06 90)
 			(do_not_autoplace yes)
 			(effects
@@ -3248,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "PCM_JLCPCB:R_0402"
 			(at 121.92 97.282 90)
 			(effects
 				(font
@@ -3257,7 +3203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3266,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±1% ±200ppm/°C 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3275,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C25076"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3284,7 +3230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8202320"
+		(property "Stock" "5907585"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3356,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF1000T5E"
+		(property "Part" "0402WGF1000TCE"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3374,7 +3320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power(Watts)" "100mW"
+		(property "Power(Watts)" "62.5mW"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3392,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Overload Voltage (Max)" "75V"
+		(property "Overload Voltage (Max)" "50V"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3421,60 +3367,6 @@
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
 			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 121.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 121.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 121.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 121.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 121.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 121.92 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
