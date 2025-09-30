@@ -952,6 +952,15 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rototation Offset" "180"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "ST iNEMO IMU"
 				(at 0 0 0)
 				(effects
@@ -4373,7 +4382,7 @@
 			)
 		)
 		(property "Description" "iNEMO inertial module with embedded Machine Learning Core: always-on 3D accelerometer and 3D gyroscope with digital output for industrial applications, LGA-14"
-			(at 119.38 60.96 0)
+			(at 118.618 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rototation Offset" "180"
 			(at 118.11 66.04 0)
 			(effects
 				(font
