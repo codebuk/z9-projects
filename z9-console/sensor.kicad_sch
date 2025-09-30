@@ -1890,6 +1890,12 @@
 		)
 	)
 	(junction
+		(at 132.08 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1047ec1e-ad09-4a05-9012-785ffa61b662")
+	)
+	(junction
 		(at 147.32 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,6 +1950,12 @@
 		(uuid "5e247ea9-c280-4e11-977d-a4871fce3365")
 	)
 	(junction
+		(at 132.08 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a525b1a-91b1-475c-a34f-24f74e872aad")
+	)
+	(junction
 		(at 115.57 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1984,6 +1996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "926fe0a3-d5aa-42ed-800c-4b5d942db493")
+	)
+	(junction
+		(at 132.08 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9312d4f7-a085-4a82-865b-d9415fc29379")
 	)
 	(junction
 		(at 198.12 55.88)
@@ -2066,18 +2084,6 @@
 		(uuid "1857c86e-5e0b-4fec-8137-aa2729b5af8d")
 	)
 	(no_connect
-		(at 128.27 73.66)
-		(uuid "365981ea-1bad-4457-88cb-499f015f0ac5")
-	)
-	(no_connect
-		(at 128.27 60.96)
-		(uuid "59a1b1d7-865a-4a90-8ead-a30a2621ac81")
-	)
-	(no_connect
-		(at 128.27 58.42)
-		(uuid "6218fbad-b6cf-498c-a182-0bfd1bb888e2")
-	)
-	(no_connect
 		(at 233.68 73.66)
 		(uuid "7732137a-3d88-481e-9d80-a1eb9cb229ae")
 	)
@@ -2100,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "0204b5fd-134d-4351-9c1c-f2596d2ccfc1")
+	)
+	(wire
+		(pts
+			(xy 132.08 24.13) (xy 147.32 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068524c1-fd92-41ce-b5e6-728c6b61a651")
 	)
 	(wire
 		(pts
@@ -2130,6 +2146,16 @@
 			(type default)
 		)
 		(uuid "07b52160-6add-4938-a04e-59ea09c19891")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f138fa-db8b-44ba-a547-5f067aeaf902")
 	)
 	(wire
 		(pts
@@ -2223,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 59.69 60.96)
+			(xy 59.69 72.39) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2250,6 +2276,16 @@
 			(type default)
 		)
 		(uuid "2be358ce-b9d8-4cca-ab3e-49895c5404a9")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0b7073-66ce-4d41-8bf7-cb3312eb4d8d")
 	)
 	(wire
 		(pts
@@ -2343,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 59.69 71.12)
+			(xy 58.42 72.39) (xy 59.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2460,6 +2496,26 @@
 			(type default)
 		)
 		(uuid "648fe6b8-6905-46c8-bf5d-90d69de0a580")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656d0a97-bb08-483b-b5b1-f791d8681911")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669b88de-d26d-4fc9-a941-e2e64cbf0eee")
 	)
 	(wire
 		(pts
@@ -2603,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 24.13) (xy 147.32 24.13)
+			(xy 118.11 24.13) (xy 132.08 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2833,6 +2889,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 58.42) (xy 132.08 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35acb6c-3f62-4e76-8784-7c8e44a9da1b")
+	)
+	(wire
+		(pts
 			(xy 173.99 138.43) (xy 237.49 138.43)
 		)
 		(stroke
@@ -2883,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 73.66) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f571df91-18ec-41ca-9df4-9bb98302966e")
+	)
+	(wire
+		(pts
 			(xy 152.4 24.13) (xy 198.12 24.13)
 		)
 		(stroke
@@ -2911,7 +2987,7 @@
 		)
 		(uuid "fd95b518-584e-47c7-9c1c-2c7a17c3661c")
 	)
-	(hierarchical_label "IIS3DHHCTR_SDO"
+	(hierarchical_label "ISM_SDO"
 		(shape input)
 		(at 35.56 60.96 180)
 		(effects
@@ -2922,7 +2998,7 @@
 		)
 		(uuid "0843aa5d-2659-4aa8-92c6-6c1075613a0f")
 	)
-	(hierarchical_label "IIS3DHHCTR_INT1"
+	(hierarchical_label "ISM_INT1"
 		(shape input)
 		(at 35.56 93.98 180)
 		(effects
@@ -2944,7 +3020,7 @@
 		)
 		(uuid "36a06626-4ad2-47be-9830-e5cde507dc94")
 	)
-	(hierarchical_label "IIS3DHHCTR_SCK"
+	(hierarchical_label "ISM_SCK"
 		(shape input)
 		(at 35.56 63.5 180)
 		(effects
@@ -2966,7 +3042,7 @@
 		)
 		(uuid "43ee2139-66c6-4a52-8182-56a2b727ce35")
 	)
-	(hierarchical_label "IIS3DHHCTR_INT2"
+	(hierarchical_label "ISM_INT2"
 		(shape input)
 		(at 35.56 97.79 180)
 		(effects
@@ -3010,7 +3086,7 @@
 		)
 		(uuid "754f8004-0f75-4901-8146-a900d39df170")
 	)
-	(hierarchical_label "IIS3DHHCTR_SDI"
+	(hierarchical_label "ISM_SDI"
 		(shape input)
 		(at 35.56 58.42 180)
 		(effects
@@ -3032,7 +3108,7 @@
 		)
 		(uuid "dcbe9233-cf32-46c2-8295-1246ad2e6567")
 	)
-	(hierarchical_label "IIS3DHHCTR_CS"
+	(hierarchical_label "ISM_CS"
 		(shape input)
 		(at 35.56 66.04 180)
 		(effects
@@ -3293,14 +3369,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SDI"
+		(property "Value" "ISM_INT2"
 			(at 42.545 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
@@ -5271,7 +5346,7 @@
 		(dnp no)
 		(uuid "c1e1af59-e611-4c1d-bc4b-f38a14adec62")
 		(property "Reference" "TP37"
-			(at 80.645 72.39 90)
+			(at 82.804 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,14 +5354,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SDI"
-			(at 75.565 72.39 90)
+		(property "Value" "ISM_CS"
+			(at 82.55 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
@@ -5393,7 +5467,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 57.15 71.12 90)
+		(at 58.42 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5401,7 +5475,7 @@
 		(dnp no)
 		(uuid "c7d776b7-2f9b-4b10-87d2-2a0d5f135375")
 		(property "Reference" "TP40"
-			(at 52.705 71.12 90)
+			(at 57.404 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,18 +5483,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SDI"
-			(at 47.625 71.12 90)
+		(property "Value" "ISM_SDO"
+			(at 58.928 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
-			(at 57.15 66.04 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 66.04 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5511,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 57.15 71.12 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5520,7 @@
 			)
 		)
 		(property "Part #" "DNP"
-			(at 202.565 285.75 0)
+			(at 203.835 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5529,7 @@
 			)
 		)
 		(property "VEND" "DNP"
-			(at 202.565 285.75 0)
+			(at 203.835 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5538,7 @@
 			)
 		)
 		(property "VEND#" "DNP"
-			(at 202.565 285.75 0)
+			(at 203.835 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5547,7 @@
 			)
 		)
 		(property "Manufacturer" "DNP"
-			(at 202.565 285.75 0)
+			(at 203.835 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5556,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 57.15 71.12 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5565,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 57.15 71.12 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5574,7 @@
 			)
 		)
 		(property "Silkscreen" ""
-			(at 57.15 71.12 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5835,7 @@
 		(dnp no)
 		(uuid "e2e6cabe-c145-4be7-8575-51af46fb5001")
 		(property "Reference" "TP42"
-			(at 66.675 72.39 90)
+			(at 69.596 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,14 +5843,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SCK"
-			(at 61.595 72.39 90)
+		(property "Value" "ISM3_SCK"
+			(at 72.136 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
@@ -5900,14 +5972,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SDI"
+		(property "Value" "ISM_INT1"
 			(at 42.545 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
@@ -6022,7 +6093,7 @@
 		(dnp no)
 		(uuid "f1bee162-5ab4-4ef1-8525-ce7256c9e839")
 		(property "Reference" "TP41"
-			(at 43.815 72.39 90)
+			(at 45.974 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,14 +6101,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIS3DHHCTR_SDI"
-			(at 38.735 72.39 90)
+		(property "Value" "ISM_SDI"
+			(at 47.244 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "dnt:TestPoint_Pad_D1.0mm FP .6R"
