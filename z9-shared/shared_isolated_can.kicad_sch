@@ -261,7 +261,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,10uF,(2)"
+		(symbol "dnt_global:0603,10uF,_25V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -289,7 +289,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
+			(property "Footprint" "dnt:C_0603_1608Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -451,7 +451,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,10uF,(2)_0_1"
+			(symbol "0603,10uF,_25V_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -477,7 +477,7 @@
 					)
 				)
 			)
-			(symbol "0603,10uF,(2)_1_1"
+			(symbol "0603,10uF,_25V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -2918,7 +2918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF,(2)")
+		(lib_id "dnt_global:0603,10uF,_25V")
 		(at 166.37 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2944,7 +2944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "dnt:C_0603_1608Metric"
 			(at 164.592 97.79 90)
 			(effects
 				(font
@@ -3089,60 +3089,6 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 166.37 97.79 0)
 			(effects
 				(font
