@@ -5856,42 +5856,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 147.32 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "20208285"
 			(at 147.32 38.1 0)
 			(effects

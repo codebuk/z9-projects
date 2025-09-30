@@ -5,7 +5,7 @@
 	(uuid "01fd732b-d28d-4591-958a-cdee10605b4f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PCM_JLCPCB-Capacitors:0603,100nF"
+		(symbol "dnt_global:0603,100nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
+			(property "Footprint" "dnt:C_0603_1608Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2109,7 +2109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0603,100nF")
 		(at 184.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2135,7 +2135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "dnt:C_0603_1608Metric"
 			(at 182.372 97.79 90)
 			(effects
 				(font
@@ -2281,60 +2281,6 @@
 		)
 		(property "Temperature Coefficient" "X7R"
 			(at 184.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 184.15 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 184.15 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 184.15 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 184.15 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 184.15 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 184.15 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0603,100nF")
 		(at 128.27 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2683,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "dnt:C_0603_1608Metric"
 			(at 126.492 81.28 90)
 			(effects
 				(font
@@ -2829,60 +2775,6 @@
 		)
 		(property "Temperature Coefficient" "X7R"
 			(at 128.27 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 128.27 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 128.27 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 128.27 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 128.27 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 128.27 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 128.27 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
