@@ -2088,6 +2088,48 @@
 		)
 	)
 	(sheet
+		(at 162.56 30.48)
+		(size 88.9 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84560734-2288-46da-a1f9-3e5aa0321279")
+		(property "Sheetname" "shared ps"
+			(at 162.56 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 162.56 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 300.99 54.61)
 		(size 50.8 16.51)
 		(exclude_from_sim no)
